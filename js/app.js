@@ -2,7 +2,7 @@ var app = angular.module("myApp", ["ngRoute"]);
 
 app.controller("myCtrl", function ($scope) { 
   $scope.toTop = () => {
-    window.scroll(0, 0)
+    window.scrollTo(0, 0);
   }
 });
 
