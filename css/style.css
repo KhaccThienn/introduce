@@ -55,15 +55,15 @@ iframe {
 }
 
 ::-moz-selection {
-  background: #000;
+  background: #F26464;
   text-shadow: none;
-  color: #FFF
+  color: #000
 }
 
 ::selection {
-  background: #000;
+  background: #F26464;
   text-shadow: none;
-  color: #FFF
+  color: #000
 }
 
 img {
