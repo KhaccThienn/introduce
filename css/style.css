@@ -54,16 +54,17 @@ iframe {
   outline: none;
 }
 
-::-moz-selection {
+/* ::-moz-selection {
   background: #F26464;
   text-shadow: none;
   color: #000
-}
+} */
 
 ::selection {
-  background: #F26464;
+  background: #fa4d4d;
   text-shadow: none;
-  color: #000
+  /* background-color: #F26464 !important; */
+  color: #D7D7D7 !important;
 }
 
 img {
