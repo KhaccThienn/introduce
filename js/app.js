@@ -27,7 +27,7 @@ app.controller(
       } else {
         $scope.contacts.push($scope.data);
         localStorage.setItem("contact", JSON.stringify($scope.contacts));
-        alert("Thanks for contacting");
+        alert("Thanks for contact");
         console.log($scope.contacts);
         $location.path("/");
       }
